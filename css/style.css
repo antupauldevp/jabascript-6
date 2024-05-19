@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-image: url(https://www.shutterstock.com/shutterstock/photos/614422070/display_1500/stock-photo-a-mountaineer-with-an-orange-dress-in-a-symmetric-picture-looking-to-the-taranaki-volcano-in-the-614422070.jpg);
+    /* background-color: #636e72; */
+   background-repeat: no-repeat;
+   background-size: 100%;
+   height: 100vh;
+   position: relative;
+}
+body.bg{
+  background-image: url(https://gemootest.s3.us-east-2.amazonaws.com/s/res/650903985505566720/7d8c39c0f026b5a6b0fcfc0fc52f9cd9.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARLZICB6QQHKRCV7K%2F20240519%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20240519T194054Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Signature=a05b4ae1fb7fc95a564120ef197ec36a5df4d4731dcc2738417629f772ed5bd5) ;
+    color: black ;
+}
+#pass{
+    /* background-color: red; */
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+::-webkit-input-placeholder{
+    color: #ffffff;
+    text-align: center;
+ opacity: 0.7;
+}
+#pass .inner{
+    background-color: #00cecb71   ;
+    /* display: flex ; */
+    width: 337px;
+    height: 250px;
+    /* align-items: center; */
+    justify-content: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 10px 5px;
+  
+}
+#pass .email{
+    margin-top: 60px;
+    margin-left: 10px;
+}
+#pass .email span{
+        font-size: 19px;
+        color: #dff9fb;
+        /* font-weight: 600;z */
+}
+#pass .email input{
+    padding: 6px;
+    border-radius: 6px;
+    border: 2px solid;
+    margin-left: 20px;
+    width: 220px;
+    background-color: #95afc027;
+    
+}
+#pass .email .eIcon{
+    margin-left: 5px;
+  color: #30336b;
+}
+#pass .pw{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+#pass .pw input{
+    padding: 6px;
+    border-radius: 6px;
+    border: 2px solid;
+    margin-left: 20px;
+    /* width: 220px; */
+    margin-right: 10px;
+    background-color: #95afc027;
+    
+}
+#pass .pw span{
+    font-size: 19px;
+    color: #dff9fb;
+    /* font-weight: 600;z */
+}
+
+
+#pass .btn button a{
+    color: black;
+}
+#pass .btn button{
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 138px;
+  margin-top: 30px;
+  border: 1px solid;
+  background-color: #70a2ffb5;
+  font-family: monospace;
+  font-weight: 800;
+
+ 
+}
+
+
+#pass #eye.active{
+    /* font-weight: 800; */
+   
+    display: none;
+}
+
+#pass .pw #cross{
+  font-size: 1px;
+    /* color: #00cecb00 ; */
+    top: 40px;
+}
+#pass .pw #cross.bro{
+    /* display: visible ; */
+    font-size: 15px ;
+    color: black;
+} 
+
+#dark{
+    display: flex   ;
+   justify-content: end;
+   height: 100px;
+   /* right: 30px; */
+    /* border: 1px solid; */
+    margin-right: 30px;
+  
+   
+
+}
+
+#dark .icon{
+/* padding: 10px; */
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid;
+border-radius: 50%;
+width: 50px;
+height: 50px;
+font-size: 30px;
+line-height: 20px;
+color: white;
+margin-top: 20px;
+
+
+
+  
+ 
+}
+
+.icon.active{
+
+}
